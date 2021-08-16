@@ -1,0 +1,48 @@
+.discover-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+
+  .covers-image{
+      width: 30vw;
+      margin-left: 2rem;
+      height: auto;
+      max-width: 350px;
+  }
+}
+
+.icon-section{
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: .5rem;
+    padding: .75rem;
+    width: 100px;
+    height: 100px;
+    background-color: #202027;
+    margin-bottom: 2rem;
+
+    img{
+        width: 40px;
+    }
+
+}
+
+@media (max-width:800px){
+    .discover-main-section{
+        flex-direction: column;
+        justify-content: center;
+
+        .covers-image{
+            margin-top: 2rem;
+            height: 30vh;
+            width: auto;
+        }
+    }
+}
